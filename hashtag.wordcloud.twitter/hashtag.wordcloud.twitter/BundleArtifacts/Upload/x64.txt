@@ -1,0 +1,2 @@
+MainPackage=C:\Users\eduar\Documents\GitHub\hashtag-wordcloud-twitter\hashtag.wordcloud.twitter\hashtag.wordcloud.twitter\bin\x64\Release\Upload\hashtag.wordcloud.twitter_1.1.0.0_x64.appx
+SymbolPackage=C:\Users\eduar\Documents\GitHub\hashtag-wordcloud-twitter\hashtag.wordcloud.twitter\hashtag.wordcloud.twitter\AppPackages\hashtag.wordcloud.twitter_1.1.0.0\hashtag.wordcloud.twitter_1.1.0.0_x64.appxsym
