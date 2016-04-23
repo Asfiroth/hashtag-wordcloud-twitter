@@ -6,7 +6,7 @@
         public const string ConsumerSecret = "<your consumer secret>";
         public const string AccessToken = "<your access token>";
         public const string AccessTokenSecret = "<your access token secret>";
-        // Query could any hashtag, for example #StarWarsFans
+        // Query could be any hashtag, for example #StarWarsFans
         public const string Query = "<your Query hashtag>";
     }
 }
