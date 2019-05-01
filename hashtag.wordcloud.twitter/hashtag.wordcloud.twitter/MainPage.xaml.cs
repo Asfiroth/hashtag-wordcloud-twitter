@@ -63,7 +63,7 @@ namespace hashtag.wordcloud.twitter
 
                 Dispatcher.RunAsync(CoreDispatcherPriority.High, () =>
                 {
-                    if (DateTime.Now >= startTime.AddMinutes(3))
+                    if (DateTime.Now >= startTime.AddMinutes(1))
                     {
                         var newTweets = GetTweets();
                         var newTagItems = newTweets as TagItem[] ?? newTweets.ToArray();
@@ -98,7 +98,7 @@ namespace hashtag.wordcloud.twitter
                                     search.Query == Constants.Query &&
                                     search.Count == 100 &&
                                     search.ResultType == ResultType.Recent &&
-                                    search.IncludeEntities == true
+                                    search.IncludeEntities
                               select search).SingleOrDefault();
 
             var rd = new Random();
